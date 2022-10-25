@@ -14,16 +14,22 @@ header{
     align-items: center;
 }
 .row{
-    background-color: rgb(218, 165, 32);
     width: 100%;
     height: 50px; 
     display: flex;
     margin-left: 14%;
     margin-right: 14%;
 }
-.col_logo_button{
+.col_logo{
     height: 50px;
     width: 20%;
+    text-align: center;
+}
+.col_button{
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    padding: 2%;
 }
 .col_bar{
     height: 50px;
@@ -66,13 +72,37 @@ main{
     width: 100%;
     display: flex;
     align-items: center;
+    text-align: center;
+    color: white;
 }
 .row_box{
-    background-color: rgb(238, 130, 238);
     width: 100%;
     height: 300px;
     margin-left: 30%;
     margin-right: 30%;
+}
+.first_h1{
+    font-size: 40px;
+}
+.first_p{
+    font-size: 20px;
+
+}
+.col_button2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 9%;
+}
+.download{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+.openbrow{
+    background-color: rgb(35, 39, 42);
+    padding: 5px;
+    border-radius: 10px;
 }
 /* second-box */
 .second_box{
