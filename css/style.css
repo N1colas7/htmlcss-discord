@@ -87,6 +87,7 @@ main{
     margin-left: 10%;
     margin-right: 10%;
     display: flex;
+    text-align: center;
 }
 .col_blue1{
     background-image: url(../img/item1.svg);
@@ -95,35 +96,43 @@ main{
     
 }
 .col_rose1{
-    background-color: rgb(255, 192, 203);
     width: 30%;
     height: 100%;
+    padding-top: 7%;
+    text-align: left;
+}
+.second_h1{
+    font-size: 40px;
 }
 /* third-box */
-.third_box{
-    background-color: rgb(211, 211, 211);
-}
 .col_blue2{
     background-image: url(..//img/item2.svg);
     width: 60%;
     height: 100%;
-    
 }
 .col_rose2{
-    background-color: rgb(255, 192, 203);
     width: 30%;
     height: 100%;
+    padding-top: 7%;
+    text-align: right;
+}
+.third_h1{
+    font-size: 40px;
 }
 /* fourth-box */
 .col_rose4{
-    background-color: rgb(255, 192, 203);
     width: 30%;
     height: 100%;
+    text-align: center;
+    padding-top: 7%;
 }
 .col_blue4{
     background-image: url(..//img/item3.svg);
     width: 60%;
     height: 100%;
+}
+.fourth_h1{
+    font-size: 40px;
 }
 /* fifth-box */
 .fifth_box{
