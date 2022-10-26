@@ -69,8 +69,12 @@ main{
     background-color: white;
 }
 /* first-box */
-.first_box{
+.jumbotron{
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+.first_box{
     height: 350px;
     width: 100%;
     display: flex;
